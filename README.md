@@ -1,6 +1,7 @@
 # Python API automation
 
 Hybrid custom Framework to test the rest APIs
+![image](https://github.com/Hymavathi26/PythonAPIAutomation/assets/147125836/4d28033f-27f1-42cd-b91d-61fe43f10002)
 
 ### Tech stack
 1. python 3.11
