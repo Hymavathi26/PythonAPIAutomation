@@ -1,10 +1,10 @@
 # add your constants here we can use normal function or with in class also(oops)
 #we have three ways to give url
 
-Base_url="https://restful-booker.herokuapp.com"      #use normal base constant
-
-def base_url():
-    return "https://restful-booker.herokuapp.com"    #this is function constants
+# Base_url="https://restful-booker.herokuapp.com"      #use normal base constant
+#
+# def base_url():
+#     return "https://restful-booker.herokuapp.com"    #this is function constants
 
 class APIConstants(object):                          #using oops with in class
     @staticmethod
