@@ -23,3 +23,12 @@ Hybrid custom Framework to test the rest APIs
 
 ### To install the freeze version
 ``pip install -r requirements.txt``   --for specific version only showing
+
+### how to run testcases parallel
+`` pip install pytest-xdist ``   ---for paraller execution need to instal this package
+
+
+
+
+`` pytest -n auto tests/integration_test/test_create_booking.py -s -v ``-->to print all details about logs in console
+
