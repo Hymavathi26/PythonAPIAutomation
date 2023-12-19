@@ -32,3 +32,8 @@ Hybrid custom Framework to test the rest APIs
 
 `` pytest -n auto tests/integration_test/test_create_booking.py -s -v ``-->to print all details about logs in console
 
+### to work with the excel file
+``pip install openpyxl
+``
+### to work with json schema validation
+``pip install jsonschema ``
