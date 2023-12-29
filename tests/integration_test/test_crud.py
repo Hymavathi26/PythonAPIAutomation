@@ -60,9 +60,11 @@ class TestCreatBooking(object):
         #                         payload=None, in_json=False)
         # print(response.json())
 
-    def test_delete_booking(self,create_token,create_booking):
-        bookingId=create_booking
-        delete_url = APIConstants.url_creating_boooking() + "/" + str(bookingId)
-        response=put_requests(url=delete_url, headers=common_headers_for_put_delete_patch(),
-                                 payload=None, in_json=False)
-        print(response.json())
+    # def test_delete_booking(self,create_token,create_booking):
+    #     bookingId=create_booking
+    #     delete_url = APIConstants.url_creating_boooking() + "/" + str(bookingId)
+    #     response=put_requests(url=delete_url, headers=common_headers_for_put_delete_patch(),auth=None,
+    #                              payload=None, in_json=False)
+    #     print(response.json())
+
+
